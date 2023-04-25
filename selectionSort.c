@@ -53,7 +53,7 @@ void SelectionSort(int a[], int n)
             }
         }
 
-        // if
+        // if the smallest element is not at index i, switching the two index values
         if(i != smallest_index)
         {
             temp = a[i];
